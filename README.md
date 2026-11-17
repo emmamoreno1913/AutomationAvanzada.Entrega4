@@ -49,6 +49,7 @@ README.md: documentación del proyecto y descripción de su funcionamiento.
 
 8. Evidencias
 Se adjuntan capturas de pantalla que muestran:
+Conexiones de tu proyecto (CRM, casilla de correo y canal del equipo) 
 Credencial OAuth2 de Salesforce conectada.
 Credencial OAuth2 de Gmail conectada.
 Credencial OAuth2 de Slack conectada.
