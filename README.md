@@ -49,7 +49,6 @@ Se adjuntan capturas de pantalla que muestran:
 Credencial OAuth2 de Salesforce conectada.
 Credencial OAuth2 de Gmail conectada.
 Credencial OAuth2 de Slack conectada.
-Workflow principal de n8n y sus conexiones.
 
 Proyecto: TechSolutions Multiagente
 Herramienta de automatización: n8n
