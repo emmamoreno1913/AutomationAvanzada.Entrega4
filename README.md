@@ -9,11 +9,14 @@ El proyecto consiste en un sistema de atención automatizada para TechSolutions,
 La solución integra herramientas externas para gestionar contactos, generar borradores de correo y notificar al equipo responsable.
 
 2. Integraciones utilizadas
-Se implementaron tres integraciones principales:
-Salesforce CRM: permite consultar contactos existentes, actualizar sus datos y crear nuevos registros cuando el cliente todavía no se encuentra registrado.
-Gmail: recibe los correos entrantes mediante Gmail Trigger y permite generar borradores para la revisión humana.
-Slack: envía notificaciones al canal #tickets-pendientes cuando una consulta requiere intervención de un responsable.
-Las tres integraciones utilizan credenciales OAuth2 configuradas en n8n.
+Conectores principales
+Salesforce CRM: consulta, creación y actualización de contactos.
+Gmail: recepción de correos y generación de borradores para revisión humana.
+Slack: notificaciones de casos pendientes de atención en el canal correspondiente.
+Las tres integraciones principales se conectaron mediante credenciales OAuth2 en n8n.
+Integraciones complementarias
+Airtable: almacenamiento de información y memoria persistente de las conversaciones.
+Groq: procesamiento de lenguaje natural y clasificación de consultas mediante modelos de IA.
 
 3. Funcionamiento del workflow
 El flujo principal sigue estas etapas:
@@ -49,6 +52,10 @@ Se adjuntan capturas de pantalla que muestran:
 Credencial OAuth2 de Salesforce conectada.
 Credencial OAuth2 de Gmail conectada.
 Credencial OAuth2 de Slack conectada.
+
+9. Conclusion
+El proyecto integra automatización, inteligencia artificial y conectores empresariales para optimizar la atención al cliente de TechSolutions.
+La solución permite clasificar consultas, gestionar contactos, consultar productos, conservar información de las conversaciones y derivar los casos que requieren intervención humana, manteniendo controles de seguridad y revisión antes del envío de comunicaciones.
 
 Proyecto: TechSolutions Multiagente
 Herramienta de automatización: n8n
